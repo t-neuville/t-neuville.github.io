@@ -11,6 +11,7 @@
     <html>
       <body>
       <h1><xsl:value-of select="rdf:RDF/foaf:Person/foaf:name"/></h1>
+      <h2>Person</h2>
       <dl>
         <dt>givenname</dt>
         <dd><xsl:value-of select="//foaf:givenname" /></dd>
