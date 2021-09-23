@@ -1,0 +1,21 @@
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Thomas NEUVILLE</foaf:name>
+  <foaf:title>Mr</foaf:title>
+  <foaf:givenname>Thomas</foaf:givenname>
+  <foaf:family_name>NEUVILLE</foaf:family_name>
+  <foaf:nick>tneuville</foaf:nick>
+  <foaf:mbox_sha1sum>53981e837de6e353518f2c037cf0b8a596b3011c</foaf:mbox_sha1sum>
+  <foaf:homepage rdf:resource="https://t-neuville.github.io/"/>
+</foaf:Person>
+</rdf:RDF>
